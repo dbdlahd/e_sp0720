@@ -1,0 +1,27 @@
+private string speed1;
+		public string Speed {
+			get { return speed1+1; }
+			set { speed1 = value; }
+		}
+lse
+				{
+					//Console.WriteLine("config interface2");
+					//Console.WriteLine(line);
+					if (line.StartsWith("edit")) {
+						Console.WriteLine("config interface3");
+						String t=null;
+							int ie = 0;
+							ie = line.IndexOf('"');
+						
+						Console.WriteLine("ie prefer "+ie);
+						//t = line.Substring(ie, line.Length - ie - 1);
+							//Console.WriteLine("here is the sample");
+						
+						
+						
+						
+						ii.setInterface_name(t);
+					}
+					
+						
+				}
